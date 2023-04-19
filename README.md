@@ -12,11 +12,20 @@ In this python file, I've used a Fitness Function to optimize the parameters.
 
 # Dataset
 
-The dataset for the project has been downloaded from the UCI Machine Learning Repository. https://archive.ics.uci.edu/ml/datasets/Room+Occupancy+Estimation
+The dataset for the project has been downloaded from the UCI Machine Learning Repository. https://archive-beta.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset
 
-This dataset is used for estimating the precise number of occupants in a room using multiple non-intrusive environmental sensors like temperature, light, sound, CO2 and PIR. It is a multi-variate classification Dataset.
+The dataset consists of feature vectors belonging to 12,330 sessions. 
+The dataset was formed so that each session
+would belong to a different user in a 1-year period to avoid
+any tendency to a specific campaign, special day, user
+profile, or period. 
 
-Number of Instances: 10129
+Number of Instances: 12330
 
-Number of Attributes: 16
+Number of Attributes: 18
+
+# Final Result Table
+
+<img width="426" alt="Screenshot 2023-04-20 at 1 33 23 AM" src="https://user-images.githubusercontent.com/72308644/233188804-f4bbead5-3e4f-4216-baba-026c5748b42b.png">
+
 
